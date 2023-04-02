@@ -561,7 +561,7 @@
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BackgroundMaker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "핏페이퍼";
+				INFOPLIST_KEY_CFBundleDisplayName = PaperSize;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진을 저장하기 위해 라이브러리 접근권한을 요청합니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 편집하기 위해 라이브러리 접근권한을 요청합니다.";
@@ -577,7 +577,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.heon.bgmaker;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.heon.papersize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -600,7 +600,7 @@
 				DEVELOPMENT_TEAM = ZH5GA3W8UP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BackgroundMaker/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "핏페이퍼";
+				INFOPLIST_KEY_CFBundleDisplayName = PaperSize;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.photography";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진을 저장하기 위해 라이브러리 접근권한을 요청합니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 편집하기 위해 라이브러리 접근권한을 요청합니다.";
@@ -616,7 +616,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.heon.bgmaker;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.heon.papersize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
