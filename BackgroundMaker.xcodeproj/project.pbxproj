@@ -352,12 +352,12 @@
 			);
 			mainGroup = 3ABA6C0A28C6043F005AA8E4;
 			packageReferences = (
-				3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */,
-				3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */,
-				3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */,
-				3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */,
+				3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
+				3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */,
+				3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */,
+				3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */,
+				3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */,
 			);
 			productRefGroup = 3ABA6C1428C6043F005AA8E4 /* Products */;
 			projectDirPath = "";
@@ -655,7 +655,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
 			requirement = {
@@ -663,7 +663,7 @@
 				minimumVersion = 3.5.0;
 			};
 		};
-		3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */ = {
+		3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/marcosgriselli/SwipeableTabBarController.git";
 			requirement = {
@@ -671,7 +671,7 @@
 				minimumVersion = 3.4.0;
 			};
 		};
-		3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */ = {
+		3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/selivandex/RulerView.git";
 			requirement = {
@@ -679,7 +679,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */ = {
+		3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jathu/UIImageColors.git";
 			requirement = {
@@ -687,7 +687,7 @@
 				minimumVersion = 2.2.0;
 			};
 		};
-		3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -695,7 +695,7 @@
 				minimumVersion = 6.5.0;
 			};
 		};
-		3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -708,37 +708,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3A2E21FF290FFA2400E4F46A /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			package = 3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */;
 			productName = Lottie;
 		};
 		3A8C4E94291644E1001DCB0A /* SwipeableTabBarController */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */;
+			package = 3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */;
 			productName = SwipeableTabBarController;
 		};
 		3A8E3A0628E3E7B900390F8A /* RulerView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */;
+			package = 3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */;
 			productName = RulerView;
 		};
 		3A9D3DC728FD36A60085676B /* UIImageColors */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */;
+			package = 3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */;
 			productName = UIImageColors;
 		};
 		3ABA6C3228C60A7F005AA8E4 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxCocoa;
 		};
 		3ABA6C3428C60A7F005AA8E4 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
 			productName = RxSwift;
 		};
 		3ABA6C3728C6361B005AA8E4 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
