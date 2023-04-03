@@ -15,8 +15,7 @@ struct Constant {
     
     //MARK: - Widget Constants
 
-    static let reuseID_WidgetIconCell = "WidgetIconCell"
     static let coreDataEntityName = "BackgroundMaker"
-    static let appGroupID = "group.ZH5GA3W8UP.com.weizen.BackgroundMaker"
+    static let appGroupID = "group.ZH5GA3W8UP.dev.heon.papersize"
 
 }
