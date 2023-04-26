@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3983190729D9D3800087F8BB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3983190629D9D3800087F8BB /* .gitignore */; };
-		3A0F42A028C8D3AD002F1CAD /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0F429F28C8D3AD002F1CAD /* UIView+Utils.swift */; };
+		3A0F42A028C8D3AD002F1CAD /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0F429F28C8D3AD002F1CAD /* UIView+Extension.swift */; };
 		3A0F42A428C982D8002F1CAD /* MainEditMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0F42A328C982D8002F1CAD /* MainEditMenuView.swift */; };
 		3A17665928C9DAFF006DE579 /* CocoaViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A17665828C9DAFF006DE579 /* CocoaViewBuilder.swift */; };
 		3A1CD19A28F971A800AC5D1C /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1CD19928F971A800AC5D1C /* CoreData.swift */; };
@@ -17,18 +17,18 @@
 		3A2E21FD290FF9F800E4F46A /* downArrow.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A2E21FC290FF9F800E4F46A /* downArrow.json */; };
 		3A2E2200290FFA2400E4F46A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3A2E21FF290FFA2400E4F46A /* Lottie */; };
 		3A2F307728F4134D00404721 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F307628F4134D00404721 /* MenuButton.swift */; };
-		3A2F307928F41F0E00404721 /* UIDevice+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F307828F41F0E00404721 /* UIDevice+Utils.swift */; };
+		3A2F307928F41F0E00404721 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F307828F41F0E00404721 /* UIDevice+Extension.swift */; };
 		3A302066290E54F7006676BD /* MainWallpaperViewController+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A302065290E54F7006676BD /* MainWallpaperViewController+Delegate.swift */; };
 		3A42851128E9D7CE001C7032 /* BackgroundPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42851028E9D7CE001C7032 /* BackgroundPickerView.swift */; };
 		3A559C7028EB1D4900D5D9E4 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A559C6F28EB1D4900D5D9E4 /* AppColors.swift */; };
 		3A5E82B928C70A8E00C10AAC /* EditImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E82B828C70A8E00C10AAC /* EditImageModel.swift */; };
-		3A82318F28C78F0700F958FE /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82318E28C78F0700F958FE /* UIImage+Utils.swift */; };
+		3A82318F28C78F0700F958FE /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82318E28C78F0700F958FE /* UIImage+Extension.swift */; };
 		3A8C4E95291644E1001DCB0A /* SwipeableTabBarController in Frameworks */ = {isa = PBXBuildFile; productRef = 3A8C4E94291644E1001DCB0A /* SwipeableTabBarController */; };
 		3A8E3A0428E3E6AA00390F8A /* RulerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8E3A0328E3E6AA00390F8A /* RulerSlider.swift */; };
 		3A8E3A0728E3E7B900390F8A /* RulerView in Frameworks */ = {isa = PBXBuildFile; productRef = 3A8E3A0628E3E7B900390F8A /* RulerView */; };
 		3A9BC0DA28E6E1AE0041DA1B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9BC0D928E6E1AE0041DA1B /* Constant.swift */; };
 		3A9D3DC828FD36A60085676B /* UIImageColors in Frameworks */ = {isa = PBXBuildFile; productRef = 3A9D3DC728FD36A60085676B /* UIImageColors */; };
-		3A9EABB628E5DA9300ED2BF2 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EABB528E5DA9300ED2BF2 /* UIColor+Utils.swift */; };
+		3A9EABB628E5DA9300ED2BF2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EABB528E5DA9300ED2BF2 /* UIColor+Extension.swift */; };
 		3AA33F0228CE339C004127ED /* RoundShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA33F0128CE339C004127ED /* RoundShadowView.swift */; };
 		3AAB43302913B482009E3302 /* CustomRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB432F2913B482009E3302 /* CustomRulerView.swift */; };
 		3ABA6C1728C6043F005AA8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA6C1628C6043F005AA8E4 /* AppDelegate.swift */; };
@@ -66,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		3983190629D9D3800087F8BB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		3A0F429F28C8D3AD002F1CAD /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		3A0F429F28C8D3AD002F1CAD /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3A0F42A128C8DC19002F1CAD /* ko-KR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ko-KR"; path = "ko-KR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		3A0F42A328C982D8002F1CAD /* MainEditMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEditMenuView.swift; sourceTree = "<group>"; };
 		3A17665828C9DAFF006DE579 /* CocoaViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaViewBuilder.swift; sourceTree = "<group>"; };
@@ -75,18 +75,18 @@
 		3A2E21FA290F7BBE00E4F46A /* DetailWallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWallpaperViewController.swift; sourceTree = "<group>"; };
 		3A2E21FC290FF9F800E4F46A /* downArrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = downArrow.json; sourceTree = "<group>"; };
 		3A2F307628F4134D00404721 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
-		3A2F307828F41F0E00404721 /* UIDevice+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Utils.swift"; sourceTree = "<group>"; };
+		3A2F307828F41F0E00404721 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		3A302065290E54F7006676BD /* MainWallpaperViewController+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainWallpaperViewController+Delegate.swift"; sourceTree = "<group>"; };
 		3A42851028E9D7CE001C7032 /* BackgroundPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPickerView.swift; sourceTree = "<group>"; };
 		3A559C6F28EB1D4900D5D9E4 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		3A5E82B828C70A8E00C10AAC /* EditImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageModel.swift; sourceTree = "<group>"; };
-		3A82318E28C78F0700F958FE /* UIImage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
+		3A82318E28C78F0700F958FE /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		3A8E3A0328E3E6AA00390F8A /* RulerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerSlider.swift; sourceTree = "<group>"; };
 		3A94E19D28EC1B950050EE80 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		3A94E1A828EC1B960050EE80 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		3A9BC0CD28E6C92A0041DA1B /* BackgroundMaker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BackgroundMaker.entitlements; sourceTree = "<group>"; };
 		3A9BC0D928E6E1AE0041DA1B /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		3A9EABB528E5DA9300ED2BF2 /* UIColor+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		3A9EABB528E5DA9300ED2BF2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		3AA33F0128CE339C004127ED /* RoundShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowView.swift; sourceTree = "<group>"; };
 		3AAB432F2913B482009E3302 /* CustomRulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRulerView.swift; sourceTree = "<group>"; };
 		3ABA6C1328C6043F005AA8E4 /* BackgroundMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,7 +131,6 @@
 		397F604E29D9C91700FA6A63 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3AE0F982294878CF008C9F5F /* CoreData */,
 				3A5E82B828C70A8E00C10AAC /* EditImageModel.swift */,
 				3AD12D9328CD960E00CF431C /* RxImageViewModel.swift */,
 			);
@@ -149,14 +148,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		397F605129D9C93800FA6A63 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				3A17665828C9DAFF006DE579 /* CocoaViewBuilder.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 		397F605229D9CCE300FA6A63 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +161,7 @@
 		397F605329D9CD0200FA6A63 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				3A17665828C9DAFF006DE579 /* CocoaViewBuilder.swift */,
 				3AAB432F2913B482009E3302 /* CustomRulerView.swift */,
 				3A2F307628F4134D00404721 /* MenuButton.swift */,
 				3AA33F0128CE339C004127ED /* RoundShadowView.swift */,
@@ -195,6 +187,15 @@
 				3ABA6C1A28C6043F005AA8E4 /* MakeWallpaperViewController.swift */,
 			);
 			path = Create;
+			sourceTree = "<group>";
+		};
+		3998355A29F9754600D08B1E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3A9BC0D928E6E1AE0041DA1B /* Constant.swift */,
+				3A559C6F28EB1D4900D5D9E4 /* AppColors.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		3A8E3A2F28E3E99500390F8A /* Frameworks */ = {
@@ -241,11 +242,12 @@
 				3A9BC0CD28E6C92A0041DA1B /* BackgroundMaker.entitlements */,
 				3ABA6C1628C6043F005AA8E4 /* AppDelegate.swift */,
 				3ABA6C1828C6043F005AA8E4 /* SceneDelegate.swift */,
-				397F605129D9C93800FA6A63 /* Helper */,
 				397F604F29D9C92000FA6A63 /* View */,
 				3AF29FFC28E0ACB900CA6E15 /* ViewModel */,
 				397F604E29D9C91700FA6A63 /* Model */,
-				3AF7E59128F85FD200B14DFD /* Utils */,
+				3AE0F982294878CF008C9F5F /* Repositories */,
+				3998355A29F9754600D08B1E /* Constants */,
+				3AF7E59128F85FD200B14DFD /* Extensions */,
 				3ABA6C2D28C60465005AA8E4 /* Resources */,
 			);
 			path = BackgroundMaker;
@@ -264,14 +266,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3AE0F982294878CF008C9F5F /* CoreData */ = {
+		3AE0F982294878CF008C9F5F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
 				3A1CD19928F971A800AC5D1C /* CoreData.swift */,
 				3AE2551C290EA2CF0045098E /* WallpaperCoreData.swift */,
 				3AE9DC0B28F8F87B008A3316 /* BackgroundMaker.xcdatamodeld */,
 			);
-			path = CoreData;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		3AF29FFC28E0ACB900CA6E15 /* ViewModel */ = {
@@ -283,17 +285,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		3AF7E59128F85FD200B14DFD /* Utils */ = {
+		3AF7E59128F85FD200B14DFD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				3A9BC0D928E6E1AE0041DA1B /* Constant.swift */,
-				3A559C6F28EB1D4900D5D9E4 /* AppColors.swift */,
-				3A82318E28C78F0700F958FE /* UIImage+Utils.swift */,
-				3A0F429F28C8D3AD002F1CAD /* UIView+Utils.swift */,
-				3A9EABB528E5DA9300ED2BF2 /* UIColor+Utils.swift */,
-				3A2F307828F41F0E00404721 /* UIDevice+Utils.swift */,
+				3A82318E28C78F0700F958FE /* UIImage+Extension.swift */,
+				3A0F429F28C8D3AD002F1CAD /* UIView+Extension.swift */,
+				3A9EABB528E5DA9300ED2BF2 /* UIColor+Extension.swift */,
+				3A2F307828F41F0E00404721 /* UIDevice+Extension.swift */,
 			);
-			path = Utils;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,12 +352,12 @@
 			);
 			mainGroup = 3ABA6C0A28C6043F005AA8E4;
 			packageReferences = (
-				3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */,
-				3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */,
-				3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */,
-				3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */,
-				3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */,
-				3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */,
+				3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */,
+				3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */,
+				3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */,
 			);
 			productRefGroup = 3ABA6C1428C6043F005AA8E4 /* Products */;
 			projectDirPath = "";
@@ -390,12 +390,12 @@
 			files = (
 				3A9BC0DA28E6E1AE0041DA1B /* Constant.swift in Sources */,
 				3AE9DC0D28F8F87B008A3316 /* BackgroundMaker.xcdatamodeld in Sources */,
-				3A2F307928F41F0E00404721 /* UIDevice+Utils.swift in Sources */,
+				3A2F307928F41F0E00404721 /* UIDevice+Extension.swift in Sources */,
 				3A2F307728F4134D00404721 /* MenuButton.swift in Sources */,
 				3A17665928C9DAFF006DE579 /* CocoaViewBuilder.swift in Sources */,
 				3AD12D9628CDA4C900CF431C /* MainWallpaperViewController.swift in Sources */,
 				3ABA6C1B28C6043F005AA8E4 /* MakeWallpaperViewController.swift in Sources */,
-				3A0F42A028C8D3AD002F1CAD /* UIView+Utils.swift in Sources */,
+				3A0F42A028C8D3AD002F1CAD /* UIView+Extension.swift in Sources */,
 				3A26150428CB7E2B000D17A3 /* TestEditImageViewController.swift in Sources */,
 				3ABA6C1728C6043F005AA8E4 /* AppDelegate.swift in Sources */,
 				3AD12D9428CD960E00CF431C /* RxImageViewModel.swift in Sources */,
@@ -410,8 +410,8 @@
 				3A0F42A428C982D8002F1CAD /* MainEditMenuView.swift in Sources */,
 				3A302066290E54F7006676BD /* MainWallpaperViewController+Delegate.swift in Sources */,
 				3AAB43302913B482009E3302 /* CustomRulerView.swift in Sources */,
-				3A82318F28C78F0700F958FE /* UIImage+Utils.swift in Sources */,
-				3A9EABB628E5DA9300ED2BF2 /* UIColor+Utils.swift in Sources */,
+				3A82318F28C78F0700F958FE /* UIImage+Extension.swift in Sources */,
+				3A9EABB628E5DA9300ED2BF2 /* UIColor+Extension.swift in Sources */,
 				3ABA6C1928C6043F005AA8E4 /* SceneDelegate.swift in Sources */,
 				3AE2551D290EA2CF0045098E /* WallpaperCoreData.swift in Sources */,
 				3AE0D3C128CE0D8800297F8F /* ButtonViewCell.swift in Sources */,
@@ -655,7 +655,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */ = {
+		3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
 			requirement = {
@@ -663,7 +663,7 @@
 				minimumVersion = 3.5.0;
 			};
 		};
-		3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */ = {
+		3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/marcosgriselli/SwipeableTabBarController.git";
 			requirement = {
@@ -671,7 +671,7 @@
 				minimumVersion = 3.4.0;
 			};
 		};
-		3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */ = {
+		3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/selivandex/RulerView.git";
 			requirement = {
@@ -679,7 +679,7 @@
 				minimumVersion = 0.1.3;
 			};
 		};
-		3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */ = {
+		3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jathu/UIImageColors.git";
 			requirement = {
@@ -687,7 +687,7 @@
 				minimumVersion = 2.2.0;
 			};
 		};
-		3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */ = {
+		3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
 			requirement = {
@@ -695,7 +695,7 @@
 				minimumVersion = 6.5.0;
 			};
 		};
-		3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+		3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -708,37 +708,37 @@
 /* Begin XCSwiftPackageProductDependency section */
 		3A2E21FF290FFA2400E4F46A /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios.git" */;
+			package = 3A2E21FE290FFA2400E4F46A /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
 		3A8C4E94291644E1001DCB0A /* SwipeableTabBarController */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController.git" */;
+			package = 3A8C4E93291644E1001DCB0A /* XCRemoteSwiftPackageReference "SwipeableTabBarController" */;
 			productName = SwipeableTabBarController;
 		};
 		3A8E3A0628E3E7B900390F8A /* RulerView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView.git" */;
+			package = 3A8E3A0528E3E7B900390F8A /* XCRemoteSwiftPackageReference "RulerView" */;
 			productName = RulerView;
 		};
 		3A9D3DC728FD36A60085676B /* UIImageColors */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors.git" */;
+			package = 3A9D3DC628FD36A60085676B /* XCRemoteSwiftPackageReference "UIImageColors" */;
 			productName = UIImageColors;
 		};
 		3ABA6C3228C60A7F005AA8E4 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
 		};
 		3ABA6C3428C60A7F005AA8E4 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift.git" */;
+			package = 3ABA6C3128C60A7F005AA8E4 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
 		};
 		3ABA6C3728C6361B005AA8E4 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			package = 3ABA6C3628C6361B005AA8E4 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
