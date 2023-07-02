@@ -1,5 +1,7 @@
 # 배경화면 메이커
 
+![image](https://github.com/heonha/backgroundmaker-ios/assets/60867281/b152d244-535e-4e62-ae1c-ace085112e3c)
+
 ### Storyboard 없이 만들었던 첫 앱.
 - 2022년 snapkit을 배우며 만들었던 첫 앱입니다.
 - 개발 하기 전부터 만들고 싶었던 앱으로, 기능은 만들어 두었으나 코젯 출시에 밀려 출시하지 못했는데
