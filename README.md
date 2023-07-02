@@ -1,6 +1,7 @@
 # 배경화면 메이커
 
 ![image](https://github.com/heonha/backgroundmaker-ios/assets/60867281/b152d244-535e-4e62-ae1c-ace085112e3c)
+사진(유튜브 '솜이네 곰이탱이여우')
 
 ### Storyboard 없이 만들었던 첫 앱.
 - 2022년 snapkit을 배우며 만들었던 첫 앱입니다.
